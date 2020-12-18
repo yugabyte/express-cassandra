@@ -1,5 +1,5 @@
 {
-  "name": "express-cassandra",
+  "name": "yb-express-ycql",
   "version": "2.5.0",
   "dependencies": {
     "JSONStream": "^1.3.1",
