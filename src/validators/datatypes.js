@@ -10,7 +10,7 @@ try {
   dseDriver = null;
 }
 
-const cql = Promise.promisifyAll(dseDriver || require('cassandra-driver'));
+const cql = Promise.promisifyAll(dseDriver || require('yb-ycql-driver'));
 
 const validators = {};
 validators.is_array = (obj) => (check.array(obj));

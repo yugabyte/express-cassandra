@@ -26,7 +26,7 @@ try {
   dseDriver = null;
 }
 
-const cql = Promise.promisifyAll(dseDriver || require('cassandra-driver'));
+const cql = Promise.promisifyAll(dseDriver || require('yb-ycql-driver'));
 
 const BaseModel = require('./base_model');
 const schemer = require('../validators/schema');

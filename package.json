@@ -6,7 +6,6 @@
     "async": "^1.5.2",
     "babel-polyfill": "^6.26.0",
     "bluebird": "^3.4.6",
-    "cassandra-driver": "^3.3.0",
     "chai": "^4.1.2",
     "check-types": "^7.4.0",
     "debug": "^3.1.0",
@@ -15,7 +14,8 @@
     "object-hash": "1.1.4",
     "readdirp": "^2.1.0",
     "readline-sync": "^1.4.4",
-    "semver": "^5.4.1"
+    "semver": "^5.4.1",
+    "yb-ycql-driver": "^4.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

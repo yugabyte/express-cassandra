@@ -10,7 +10,7 @@ try {
   dseDriver = null;
 }
 
-const cql = Promise.promisifyAll(dseDriver || require('cassandra-driver'));
+const cql = Promise.promisifyAll(dseDriver || require('yb-ycql-driver'));
 
 const buildError = require('../orm/apollo_error.js');
 const datatypes = require('../validators/datatypes');

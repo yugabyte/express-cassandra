@@ -16,7 +16,7 @@ try {
   dseDriver = null;
 }
 
-const cql = Promise.promisifyAll(dseDriver || require('cassandra-driver'));
+const cql = Promise.promisifyAll(dseDriver || require('yb-ycql-driver'));
 
 const ORM = Promise.promisifyAll(require('./orm/apollo'));
 const readdirpAsync = Promise.promisify(require('readdirp'));
